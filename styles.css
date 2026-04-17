@@ -351,11 +351,11 @@ textarea {
 
 .hero__title {
   margin: 0;
-  max-width: 10ch;
+  max-width: 22ch;
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(3.2rem, 6.2vw, 6.4rem);
-  line-height: 0.9;
-  letter-spacing: -0.06em;
+  font-size: clamp(2.4rem, 5.2vw, 4.8rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
 }
 
 .hero__title span {
@@ -1159,7 +1159,7 @@ textarea {
   }
 
   .hero__title {
-    max-width: 11ch;
+    max-width: 18ch;
   }
 
   .button,
