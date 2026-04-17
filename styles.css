@@ -338,7 +338,7 @@ textarea {
 .hero__copy {
   display: grid;
   gap: 1.25rem;
-  max-width: 46rem;
+  max-width: 50rem;
 }
 
 .hero__brand {
@@ -351,9 +351,9 @@ textarea {
 
 .hero__title {
   margin: 0;
-  max-width: 30ch;
+  max-width: 40ch;
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(2.4rem, 5.2vw, 4.4rem);
+  font-size: clamp(2.3rem, 5vw, 4rem);
   line-height: 1;
   letter-spacing: -0.05em;
 }
@@ -564,9 +564,9 @@ textarea {
 
 .visual-panel--floating {
   position: absolute;
-  top: 7.5rem;
-  right: -1.75rem;
-  width: min(18.5rem, 84%);
+  top: 13rem;
+  right: -3rem;
+  width: 17rem;
   z-index: 5;
 }
 
