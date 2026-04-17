@@ -338,7 +338,7 @@ textarea {
 .hero__copy {
   display: grid;
   gap: 1.25rem;
-  max-width: 40rem;
+  max-width: 46rem;
 }
 
 .hero__brand {
@@ -351,10 +351,10 @@ textarea {
 
 .hero__title {
   margin: 0;
-  max-width: 22ch;
+  max-width: 30ch;
   font-family: "Space Grotesk", sans-serif;
-  font-size: clamp(2.4rem, 5.2vw, 4.8rem);
-  line-height: 0.95;
+  font-size: clamp(2.4rem, 5.2vw, 4.4rem);
+  line-height: 1;
   letter-spacing: -0.05em;
 }
 
@@ -564,9 +564,10 @@ textarea {
 
 .visual-panel--floating {
   position: absolute;
-  top: 10.75rem;
-  right: -1rem;
+  top: 7.5rem;
+  right: -1.75rem;
   width: min(18.5rem, 84%);
+  z-index: 5;
 }
 
 .visual-panel--floating ul {
@@ -693,6 +694,13 @@ textarea {
 
 .stack-card:nth-child(4) {
   top: 14rem;
+}
+
+.humanized {
+  position: relative;
+  z-index: 10;
+  background-color: var(--bg);
+  padding-top: 8rem;
 }
 
 .humanized__grid {
